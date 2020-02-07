@@ -10,6 +10,8 @@ class Scrypt extends Component {
                 loop={Infinity}
                 wrapper="b"
                 steps = {[
+                    null,
+                    5000,
                     'Bonjour mon nom est Alexandre',
                     1000,
                     "Je suis un programmeur Front-End",
