@@ -5,26 +5,34 @@ import './scrypt.styles.scss'
 class Scrypt extends Component {
     render() {
         return (
-            <div className='scrypt'>
+          
                  <Typical
-                loop={Infinity}
+                 className='scrypt'
+                loop={1}
                 wrapper="b"
                 steps = {[
                     null,
-                    5000,
+                    1000,
+                    'Bonjour',
+                    2500,
                     'Bonjour mon nom est Alexandre',
                     1000,
-                    "Je suis un programmeur Front-End",
+                    "Je suis un programmeur",
                     1000,
-                    'Je me spécialise en application web et mobile',
+                    "Je suis un programmeur : MERN Stack",
+                    1000,
+                    "MERN : Mango Db, Express Js, React Js/Native, Node Js",
+                    2500,
+                    "Je crée des applications pour PME",
                     1000,
                     '',
-                    5000,
+                    2500,
                     'Au plaisir de vous rencontrer!',
-                    50000000
+                    1500,
+                    null,
                 ]}
                 />
-            </div>
+            
         );
     }
 }
