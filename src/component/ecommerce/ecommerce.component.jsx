@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
 import Typical from 'react-typical'
-import './email.styles.scss'
+import './ecommerce.styles.scss'
 
-class Email extends Component {
+class Ecommerce extends Component {
    render() {
         return (
-            <a className='email' href={`mailto:${"dev.projets.alex@gmail.com"}`}>          
+            <a className='ecommerce' href="https://e-com-demo-alex.herokuapp.com/">          
                  <Typical
                 loop={Infinity}
                 steps = {[
                     null,
                     1000,
-                     'dev-projets-alex@gmail.com',
+                     'Site demo de E-Commerce',
                     1000,                   
                 ]} />     
             </a>
@@ -21,4 +21,4 @@ class Email extends Component {
     }
 }
 
-export default Email;
+export default Ecommerce;
